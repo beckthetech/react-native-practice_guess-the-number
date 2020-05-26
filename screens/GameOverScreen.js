@@ -45,11 +45,11 @@ const styles = StyleSheet.create({
         borderRadius: 150,
         borderColor: 'black',
         overflow: 'hidden',
+        borderWidth: 3
     },
     image: {
         width: 300,
         height: 300,
-        borderRadius: 150,
     },
     highlight: {
         color: Colors.primary,
@@ -57,10 +57,12 @@ const styles = StyleSheet.create({
     },
     resultContainer: {
         marginHorizontal: 30,
-        padding: 20
+        padding: 20,
+        marginVertical: 15
     },
     resultText: {
-        textAlign: 'center'
+        textAlign: 'center',
+        fontSize: 20
     },
     titleText: {
         padding: 30

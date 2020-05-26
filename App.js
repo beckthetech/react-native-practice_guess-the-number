@@ -46,10 +46,10 @@ export default function App() {
   let content = <StartGameScreen onStartGame={startGameHandler} />;
   content = (
     <GameOverScreen
-      // roundsNumber={guessRounds}
-      roundsNumber={1}
-      // userNumber={userNumber}
-      userNumber={1}
+      roundsNumber={guessRounds}
+      // roundsNumber={1}
+      userNumber={userNumber}
+      // userNumber={1}
       onRestart={configureNewGameHandler}
     />
   );
